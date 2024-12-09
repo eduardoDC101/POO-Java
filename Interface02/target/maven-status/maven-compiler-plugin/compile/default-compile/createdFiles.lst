@@ -1,0 +1,8 @@
+interface02\CasaDAO.class
+interface02\ImovelDTO.class
+interface02\IImovelDTO.class
+interface02\ImovelView.class
+interface02\ICasaDAO.class
+interface02\ICasaDTO.class
+interface02\CasaCTR.class
+interface02\CasaDTO.class
