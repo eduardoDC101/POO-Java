@@ -1,0 +1,14 @@
+CREATE TABLE cliente
+(
+	id_cli serial,
+	nome_cli character varying(50),
+	telefone_cli character varying(15),
+	logradouro_cli character varying(50),
+	cpf_cli character varying(14),
+	cidade_cli character varying(30),
+	servico_cli character varying(100),
+	numero_cli integer,
+	CONSTRAINT cliente_pkey PRIMARY KEY	(id_cli),
+	CONSTRAINT cliente_cpf_key UNIQUE (cpf_cli)
+)
+SELECT * from cliente;
